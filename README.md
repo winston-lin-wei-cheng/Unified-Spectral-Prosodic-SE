@@ -35,6 +35,12 @@ After extracted the prosodic features of desired corpus, we use the **training.p
    * -path_dataset: directory of the dataset
    * -path_output: output directory of the enhanced WAV files
 
+# Trained Models
+Under the *'trained_models_TIMIT'* folder, we also provide the trained SE models (based on the TIMIT dataset), where the performances are the same as the [paper](http://www.apsipa.org/proceedings/2019/pdfs/188.pdf). For utilizing the models to enhance input noisy wav files, you can directly change the directory parameters in the **pred_process.py** and run the following comment in the terminal
+```
+python pred_process.py
+```
+
 # Reference
 If you use this code, please cite the following paper:
 
